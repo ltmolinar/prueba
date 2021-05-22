@@ -1,0 +1,13 @@
+name: local-env
+channels:
+    - defaults
+dependencies:
+    - python=3.8
+    - pip
+    - pandas
+    - numpy
+    - pip:
+        - sklearn
+        - sklearn.utils
+        - mlxtend
+      
